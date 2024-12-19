@@ -9,14 +9,14 @@ const profile = {
         if   (this.playTime + times < 0) {
         this.playTime = 0;
         } else {
-        this.playTime += times;
+            this.playTime += times;
         }
     },
     changeUsername(newName) {
       this.username = newName;
     },
   getInfo(){
-    console.log(`${this.username} has ${this.playTime} active hours!`);
+    return `${this.username} has ${this.playTime} active hours!`;
     },
   };
   

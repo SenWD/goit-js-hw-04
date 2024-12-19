@@ -3,7 +3,7 @@ function isEnoughCapacity(products, containerSize) {
     var totalPrice = 0;
     var  myValues = [];
    
-      myValues = Object.values(products);
+    myValues = Object.values(products);
       
      for(const price of myValues) {
    
@@ -14,6 +14,7 @@ function isEnoughCapacity(products, containerSize) {
           return true;
           
         } else { 
+
           return false;
              
      }
